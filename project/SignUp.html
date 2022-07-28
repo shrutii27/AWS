@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Adventure Website Registration</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+<div class="container-fluid g">
+ <div class=" col-md-5" style="position: absolute;left:50%;top:10%;transform: translate(-50%,-10%);">
+  <div class="text-center" style="margin-top: 10px; box-shadow: -1px 2px 20px 8px white;text-align: left;">
+    <br>
+  <h2 style="text-align: center; color: black; font-size: 40px;">Registration</h2>
+        <hr>
+        <form name="SignUp" method="post" action="MainFrame.html">
+     
+  <div class="container-fluid">
+  <div class="row">
+      <div class="cols-md-9" style="margin-left: 12px;margin-right:12px; padding: 6px; color: white;">
+    <div class="form-group">
+       <div class="text-left" style="margin-left: 25px; margin-right: 25px; color: white;">
+      <label for="First name">Name:</label>
+      <input type="text" class="form-control" id="Name" placeholder="Name" name="Name">
+
+        <div class="form-group">
+      
+      </div>
+      
+         <div class="form-group">
+            <label for="">Email:</label>
+            <input type="email" class="form-control" placeholder="Email" name="f_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+          </div>
+
+          
+          <div class="form-group">
+            <label for="">Mobile number:</label>
+            <input type="text" class="form-control" placeholder="Mobile" name="mobile">
+          </div>
+
+          <div class="form-group">
+            <label for="">Password:</label>
+            <input type="password" class="form-control" placeholder="Password" name="pwd">
+          </div>
+
+
+         <!--<button type="submit" class="btn btn-success"><span>Sign Up</span></button>-->
+         <button type="submit" class="btn btn-success">Sign Up</button>
+         <br><br>
+         <p style="font-size: 15px;font-weight: bold;">Already Registered?<a href="login.html"><b style="color: rgb(224, 255, 255);">Click here to login</b></a></p>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </form>
+    </form>
+</body>
+</html>

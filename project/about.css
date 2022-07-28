@@ -1,0 +1,89 @@
+body{
+	background: linear-gradient(to bottom, #0000ff 0%, #ff99cc 100%);
+	background-image:url('ap.jpg'); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	filter: brightness(100%);
+        color: white;
+}
+.text{
+	font-weight: bold;
+	font-size: 150%;
+	text-align: justify;
+
+	color:white;
+	font-family: "Times New Roman", Times, serif;
+	/*margin-right: 20px;
+	margin-left: 20px;*/
+}
+.hd{
+	font-weight: bold;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 150%;
+	color: white;
+}
+
+.hm
+{
+	font-size: 20px;
+}
+
+.p1
+{
+	font-size: 20px;
+}
+.rf{
+	font-weight: bold;
+	text-align: center;
+	font-size: 110%;
+	color: #000000;
+}
+
+.im
+{
+	width: 100px;
+	height: auto;
+}
+
+.right
+{
+	float: right;
+}
+
+
+
+*{
+	box-sizing: border-box;
+}
+
+.row
+{
+	display: flex;
+}
+
+.column
+{
+	flex: 33.33%;
+	padding: 5px;
+}
+
+.center1 {
+  display: block;
+  margin-left: 500px;
+  width: 200px;
+}
+
+.center2 {
+  display: block;
+  margin-right: 400px;
+  width: 200px;
+}
+
+.hn
+{
+	text-align: center;
+	margin-left: 500px;
+}
+
